@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/media.css">
+</head>
+
+<body>
+    <div class="site">
+        <div class="modal">
+            <div class="modal-window">
+                <p>Ваше письмо отправлено!</p>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <img width="80" height="80" src="assets/image/logo.png" alt="logo" />
+                        <div class="header__logo-company">
+                            <span>ООО "Топ-окна"</span>
+                            <span>Самая клевая компания</span>
+                        </div>
+                    </div>
+                    <div class="header__contacts">
+                        <a class="header__phone-to" href="tel:74997777777">7(499)777-77-77</a>
+                        <a class="header__phone-to" href="tel:74997777777">7(499)777-77-77</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="main-form">
+            <div class="container">
+                <form class="main-form__form">
+                    <span>Оставь свой номер телефона и прими учаcтие в акции!</span>
+                    <input id ="input" type="tel" placeholder="Введите номер" required/>
+                    <button class="main-form__button">Получить</button>
+                </form>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="slider__main-block">
+                <div class="slider__slide-first slides"></div>
+                <div class="slider__slide-second slides"></div>
+                <div class="slider__slide-third slides"></div>
+            </div>
+            <div class="arrow-wrapper">
+                <div class="slider__arrow-left arrows"></div>
+                <div class="slider__arrow-right arrows"></div> 
+            </div>   
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <h2>Информация о компании:</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod molestias officia excepturi
+                        pariatur, odit laboriosam natus saepe minima voluptates, porro eveniet. Nobis ut perspiciatis
+                        eius tempora sapiente hic cum incidunt debitis magnam dolorum corporis laboriosam explicabo
+                        autem suscipit assumenda iste laborum, dolores architecto non totam consequatur accusantium quis
+                        sint blanditiis! Distinctio aspernatur, eius et vel non, asperiores eum debitis eligendi
+                        sapiente expedita sed ullam quam, maxime quibusdam cumque blanditiis omnis. Iusto, cupiditate!
+                        Sequi est, nulla, perspiciatis atque magni suscipit modi perferendis cumque ipsum adipisci esse
+                        inventore odit doloribus, excepturi sapiente voluptatem ipsa aut quaerat enim praesentium
+                        quibusdam blanditiis. Voluptas eligendi illum sunt, voluptate atque voluptatem maxime!</p>
+                </div>
+            </div>
+        </section>
+        <section class="cost-calculate">
+            <div class="container">
+                <div class="cost-calculate__list-of-windows">
+                    <h2>Калькулятор <br /> <span>(итоговую стоимость необходимо уточнять у менеджера)</span></h2>
+                    <div class="cost-calculate__list">
+                        <a href="#" class="cost-calculate__item first">
+                            <img src="assets/image/first-window.png" width="58" alt="first-window" />
+                            <span>Одностворчатое</span>
+                        </a>
+                        <a href="#" class="cost-calculate__item second">
+                            <img src="assets/image/second-window.png" alt="second-window" />
+                            <span>Двухстворчатое</span>
+                        </a>
+                        <a href="#" class="cost-calculate__item third">
+                            <img src="assets/image/third-window.png" alt="third-window" />
+                            <span>Трехстворчатое</span>
+                        </a>
+                        <a href="#" class="cost-calculate__item fourth">
+                            <img src="assets/image/fourth-window.png" alt="fourth-window" />
+                            <span>Балконный блок</span>
+                        </a>
+                        <a href="#" class="cost-calculate__item fifth">
+                            <img src="assets/image/fifth-window.png" alt="fifth-window" />
+                            <span>Остекление балкона</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="cost-calculate__calculator">
+                    <div class="cost-calculate__wrapper">
+                        <div class="cost-calculate__example">
+                            <div class="cost-calculate__image">
+                                <span class="cost-calculate__text">ширина</span>
+                                <div class="image-wrapper">
+                                    <div class="cost-calculate__text">высота</div>
+                                    <img src="assets/image/first-window.png" width="105" alt="first-window" />
+                                </div>
+                            </div>
+                            <div class="cost-calculate__size">
+                                <div class="width">
+                                    <span class="size-name">ширина, см</span>
+                                    <span class="size-box">120</span>
+                                </div>
+                                <span class="size-multiply">X</span>
+                                <div class="height">
+                                    <span class="size-name">высота, см</span>
+                                    <span class="size-box">120</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cost-calculate__parameters">
+                            <p>Одностворчатое окно KBE</p>
+                            <form class="cost-calculate__form-radio">
+                                <p class="list">1. Критерий выбора</p>
+                                <div class="radio-wrapper">
+                                    <div>
+                                        <input type="radio" id="cost-calculate__choice1" name="choice">
+                                        <label for="cost-calculate__choice1">Критерий 1</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="cost-calculate__choice2" name="choice">
+                                        <label for="cost-calculate__choice2">Критерий 2</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="cost-calculate__choice3" name="choice">
+                                        <label for="cost-calculate__choice3">Критерий 3</label>
+                                    </div>
+                                </div>
+                            </form>
+                            <form class="cost-calculate__form-select">
+                                <p class="list">2. Выберите открывание створки</p>
+                                <select>
+                                    <option>Не открывается</option>
+                                    <option>Открываются обе</option>
+                                    <option>Открывается левая</option>
+                                    <option>Открывается правая</option>
+                                  </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cost-calculate__btn">
+                        <form class = "cost-calculate__phone">
+                            <div class="user">
+                                <img  src="assets/image/user.png" alt="user" />
+                            </div>
+                            <input type="tel" placeholder="Введите номер"/>
+                            <button class="cost-calculate__button">Рассчитать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <div class="container">
+                Все права защищены &copy;
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
